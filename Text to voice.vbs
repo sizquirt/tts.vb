@@ -1,3 +1,3 @@
-message=InputBox("What do you want your computer to say?","text to voice")
-Set sapi=CreateObject("sapi.spvoice")
+message=InputBox("Type anything in the box and it will be said.", "Text2Voice")
+      Set sapi = CreateObject("sapi.spvoice")
 sapi.Speak message 
